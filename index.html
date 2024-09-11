@@ -1,9 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mock Google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Search</title>
   </head>
   <body>
-    <h1>Hello,World!</h1>
+    <header>
+      <nav id="header-nav">
+        <ul id="header-list">
+          <li style="float: left" class="header-links">
+            <a
+              href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+              >About</a
+            >
+          </li>
+          <li class="header-links">
+            <a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl"
+              >Images</a
+            >
+          </li>
+          <li class="header-links">
+            <a href="https://www.google.com/advanced_search?hl=en&fg=1"
+              >Advanced Search</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      id="img"
+      alt="Google Logo"
+      src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    />
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <br />
+      <div>
+        <input
+          id="btnone"
+          type="submit"
+          name="btnK"
+          value="Google Search"
+          class="button"
+        />
+        <input
+          id="btntwo"
+          type="submit"
+          name="btnI"
+          value="I'm Feeling Lucky"
+          class="button"
+        />
+      </div>
+    </form>
+    <footer>
+      <nav id="footer-nav">
+        <ul id="footer-list">
+          <li style="float: left" class="footer-links">
+            <a
+              href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+              >Advertising</a
+            >
+          </li>
+          <li style="float: left" class="footer-links">
+            <a
+              href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"
+              >Business</a
+            >
+          </li>
+          <li style="float: left" class="footer-links">
+            <a href="https://www.google.com/search/howsearchworks/?fg=1"
+              >How Search works</a
+            >
+          </li>
+          <li style="float: right" class="footer-links">
+            <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+          </li>
+          <li style="float: right" class="footer-links">
+            <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
