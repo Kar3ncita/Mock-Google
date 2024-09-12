@@ -7,22 +7,33 @@
     background-color: #fff;
     padding: 10px 20px;
     text-decoration: none;
+     
 }
 #header-list{
    list-style-type: none;
    margin: 0;
-   padding: 0;  
+   padding: 0; 
+ 
 }
 .header-links{
+    list-style-type: none;
     display: inline;
     padding: 8px;
     float: right;
+   
 }
-
+a, u {
+    text-decoration: none;
+    color: black;
+    }
 
 img{
-    width: 50%;
-    align-items: center;
+    width: 272px;
+    height: 92px;
+    position: relative;
+    top: 225px;
+    left: 500px;
+   
 }
 
 
