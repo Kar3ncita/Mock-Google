@@ -36,24 +36,21 @@ img{
 }
 #search-engine{
     position: relative;
-    top: 225px;
-    left: 500px; 
-}
-form{
    
-
-
 }
+
 #btnone, #btntwo{
     background-color:  #e7e7e7;
-    padding: 10px 24px;
+    padding: 10px 10px;
     text-align: center;
+    border: .75px solid;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
-
-
+form{
+    width: 40px;
+}
 #footer-nav{
     background-color: #fff;
     padding: 40px 20px;
