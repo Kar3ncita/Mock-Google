@@ -33,7 +33,24 @@ img{
     position: relative;
     top: 225px;
     left: 500px;
+}
+#search-engine{
+    position: relative;
+    top: 225px;
+    left: 500px; 
+}
+form{
    
+
+
+}
+#btnone, #btntwo{
+    background-color:  #e7e7e7;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 
