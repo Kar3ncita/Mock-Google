@@ -27,8 +27,16 @@
 a, u {
     text-decoration: none;
     color: black;
-    }
-
+}
+a:hover, u:hover{
+    text-decoration: underline;
+}
+a::after, u::after{
+   content: '';
+}
+a:hover::after, u:hover::after{
+    text-decoration: underline;
+}
 img{
     width: 272px;
     height: 92px;
@@ -103,5 +111,7 @@ img{
     padding: 20px;
    
 }
+
+
 
 
