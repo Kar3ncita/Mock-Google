@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
 }
 #header-nav{
     background-color: #fff;
@@ -21,8 +22,6 @@
     display: inline;
     padding: 8px;
     float: right;
-    font-size: 14px;
-   
 }
 a, u {
     text-decoration: none;
@@ -77,39 +76,35 @@ img{
     color:rgba(0, 0, 0, .87);
    
 }
-#btn-placement{
-    margin-left: 620px;
-    margin-top: 32px;
-}
+
 
 #btnone, #btntwo{
     padding: 10px 14px;
     text-align: center;
     border: none;
     text-decoration: none;
-    font-size: 14px;
     border-radius: 3px;
     background-color: #f8f9fa;
     margin: 8px;
 }
 
 #footer-nav{
-    background-color: #fff;
-    padding: 40px 20px;
+    background-color:#f2f2f2;
     text-decoration: none;
     width: 100%;
     bottom:0;
     position: fixed;
+   
 }
 #footer-list{
     list-style-type: none;
-   margin: 0;
-   padding: 0;  
+    margin: 0;
+    padding: 0;  
 }
 .footer-links{
     display:inline-block;
     padding: 20px;
-   
+
 }
 
 
