@@ -50,42 +50,57 @@ img{
     --padding: 14px;
 
     margin-top: 260px;
-    width: max-content;
+    width: 600px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: var(--padding);
     border-radius: 28px;
     background: #fff;
     border: 1px solid #d2d2d2;
-    width: 600px;
-    height: 45px;
-    margin-left: 460px;
-    transition: box-shadow 0.25;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow 0.25s;
    
 }
 #search-engine:hover{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
     z-index: 3;
 }
-#search-engine input{
-    margin-left:var(--padding);
+#search-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#search-container .material-symbols-outlined {
+margin-right: var(--padding);
+}
+#search-container input[type="text"]{
     outline: none;
     border: none;
     background: transparent;
     font-size: 16px;
-    color:rgba(0, 0, 0, .87);
-   
+    color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    padding: 10px;
 }
-
-
-#btnone, #btntwo{
+#btn-placement{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button{
     padding: 10px 14px;
     text-align: center;
     border: none;
     text-decoration: none;
     border-radius: 3px;
     background-color: #f8f9fa;
-    margin: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid red;
 }
 
 #footer-nav{
