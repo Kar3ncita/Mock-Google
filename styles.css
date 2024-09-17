@@ -128,9 +128,30 @@ font-size: 20px;
 
 }
 /*-------Advanced Search-------*/
-#adv-logo{
-    min-width: 160px;
-    position: relative;
+#advanced-search{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-
-
+#adv-logo{
+   position: absolute;
+   top:20px;
+   left: 20px;
+   width: 75px;
+   height: auto;
+   max-width: 100%;
+}
+#header{
+    color: #d93025;
+    font-size: 20px;
+    margin: 95px 40px;
+    font-weight: 100;
+}
+#line-break{
+    border: 0;
+    height: 1px;
+    background: #ebebeb;
+    margin-top: -70px;
+}
