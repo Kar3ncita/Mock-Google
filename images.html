@@ -11,25 +11,31 @@
   </head>
   <body>
     <header>
-      <nav id="img.header">
-        <ul id="img.list">
-          <li style="float: left" class="img.links">
+      <nav id="header-nav">
+        <ul id="header-list">
+          <li class="header-links">
             <a href="index.html">Google</a>
           </li>
-          <li class="img.links">
+          <li class="header-links">
             <a href="Advsearch.html">Advanced Search</a>
           </li>
         </ul>
       </nav>
     </header>
     <img
-      id="img-logo"
+      id="img"
       alt="Google Images Logo"
       src="https://vectorseek.com/wp-content/uploads/2023/12/Google-Images-Logo-Vector.svg-.png"
     />
-    <form method="get" action="http://images.google.com/images">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
+    <form
+      id="search-engine"
+      method="get"
+      action="http://images.google.com/images"
+    >
+      <div id="search-container">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" name="q" />
+      </div>
     </form>
     <footer>
       <nav id="footer-nav">

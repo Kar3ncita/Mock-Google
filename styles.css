@@ -5,6 +5,7 @@
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
 }
+/*-------Google Search Page-------*/
 #header-nav{
     background-color: #fff;
     padding: 10px 20px;
@@ -126,7 +127,10 @@ font-size: 20px;
     padding: 20px;
 
 }
-
-
+/*-------Advanced Search-------*/
+#adv-logo{
+    min-width: 160px;
+    position: relative;
+}
 
 
