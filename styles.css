@@ -140,18 +140,68 @@ font-size: 20px;
 #header{
     color: #d93025;
     font-size: 20px;
-   margin: 95px 40px;
+   margin: 75px 40px;
     font-weight: 100;
 }
 #line-break{
     border: 0;
     height: .75px;
     background: #ebebeb;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 #main-body h1{
     font-size: 15px;
     font-weight: 100;
-    margin: 45px 40px;
+    margin: 35px 40px;
+    margin-bottom: 0px;
+}
+#adv-engine{
+    padding: 40px;
 
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    margin-top: 0;
+    
+}
+.left{
+    width: 200px;
+}
+.right{
+    width: 385px;
+    flex: 1;
+}
+#adv-btn-placement{
+    
+    margin-left: 41%;
+    margin-top: var(--padding);
+}
+.right input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 1px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    left: 50%;
+}
+
+.right input:hover, .right input:focus{
+    border-color: #2196f3;
+    outline: none;
+}
+#adv-btn{
+    border: 1px solid #c6dafc;
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px ;
+    font-size: 11px;
+}
+#adv-btn:hover {
+    background-color: #0f5bbf;
+    
 }

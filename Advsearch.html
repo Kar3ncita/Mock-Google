@@ -15,6 +15,16 @@
       alt="google logo"
       src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
     />
+    <nav id="header-nav">
+      <ul id="header-list">
+        <li class="header-links">
+          <a href="images.html">Images</a>
+        </li>
+        <li class="header-links">
+          <a href="index.html">Google</a>
+        </li>
+      </ul>
+    </nav>
 
     <h1 id="header">Advanced Search</h1>
 
@@ -24,20 +34,33 @@
       <h1> Find pages with...</h1>
     </div>
     <form id="adv-engine" action="https://www.google.com/search">
-      <p>all these words:</p>
-         <input id="Adv-form" type="text" name="q" />
-      <p>this exact word or phrase:</p>
-          <input id="Adv-form" type="text" name="q" />
-      <p>any of these words:</p>
-          <input id="Adv-form" type="text" name="q" />
-      <p>none of these words:</p>
-          <input id="Adv-form" type="text" name="q" />
+      <div class="row-input">
+      <div class="left"><p>all these words:</p></div>
+      <div class="right"><input type="text" name="as_q" /></div>
+      </div>
+
+      <div class="row-input">
+      <div class="left"><p>this exact word or phrase:</p></div>
+      <div class="right"><input type="text" name="as_epq" /></div>
+      </div>
+
+      <div class="row-input">
+      <div class="left"><p>any of these words:</p></div>
+      <div class="right"><input type="text" name="as_oq" /></div>
+      </div>
+
+      <div class="row-input">
+      <div class="left"><p>none of these words:</p></div>
+      <div class="right"><input type="text" name="as_not" /></div>
+      </div>
+
+        <div id="adv-btn-placement">
           <input
             id="adv-btn"
             type="submit"
             name="btnK"
             value="Advanced Search"
             class="button"
-          />
+          /></div>
   </body>
 </html>
